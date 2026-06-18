@@ -2869,7 +2869,6 @@ main {
 }
 
 /* MOBILE */
-
 @media (max-width: 768px) {
   .vinilo-pedido,
   .vinilo-pago {
@@ -2892,4 +2891,3 @@ main {
     margin-bottom: 24px;
     padding: 22px;
   }
-
