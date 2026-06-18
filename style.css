@@ -2877,16 +2877,14 @@ main {
     opacity: 0.75;
   }
 
-  .vinilo-pedido-uno{
-    left: -40px;
-    bottom: 60px;
-    width: 120px;
-}
+ @media (max-width: 768px){
 
-.vinilo-pedido-dos{
-    right: -40px;
-    top: 140px;
-    width: 120px;
+    .vinilo-pedido-uno,
+    .vinilo-pedido-dos{
+        display:none;
+    }
+
+}
 }
 
   .reserva-card {
@@ -2894,4 +2892,4 @@ main {
     margin-bottom: 24px;
     padding: 22px;
   }
-}
+
